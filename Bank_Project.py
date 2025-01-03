@@ -11,7 +11,7 @@ SpecialSym =['$', '@', '#', '%']
 import mysql.connector as sql
 dates1=date.datetime.now()
 
-mycon= sql.connect(host="localhost",user="root",password="12345678",database="hubnet")
+mycon= sql.connect(host="localhost",user="root",password="3010",database="BankAplication")
 mycur= mycon.cursor()
 while True:
     print("\n")
